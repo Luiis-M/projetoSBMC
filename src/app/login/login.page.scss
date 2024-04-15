@@ -1,0 +1,193 @@
+.android-large {
+    background-color: #040303;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .android-large .div {
+    background-color: #040303;
+    width: 360px;
+    height: 800px;
+    position: relative;
+  }
+
+  .android-large .logo-inteiro-sbmc {
+    position: absolute;
+    width: 318px;
+    height: 214px;
+    top: 98px;
+    left: 21px;
+  }
+
+  .android-large .input {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 55px;
+    align-items: flex-start;
+    position: absolute;
+    top: 337px;
+    left: 48px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+
+  .android-large .label {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 18px 16px 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .android-large .text-wrapper {
+    font-family: var(--subtitle-1-roboto-regular-font-family);
+    font-weight: var(--subtitle-1-roboto-regular-font-weight);
+    color: var(--text);
+    font-size: var(--subtitle-1-roboto-regular-font-size);
+    letter-spacing: var(--subtitle-1-roboto-regular-letter-spacing);
+    line-height: var(--subtitle-1-roboto-regular-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    white-space: nowrap;
+    font-style: var(--subtitle-1-roboto-regular-font-style);
+  }
+
+  .android-large .text-field-elements {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 2px;
+    margin-bottom: -1px;
+  }
+
+  .android-large .input-2 {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 55px;
+    align-items: flex-start;
+    position: absolute;
+    top: 414px;
+    left: 48px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+
+  .android-large .rectangle {
+    position: absolute;
+    width: 96px;
+    height: 4px;
+    top: 707px;
+    left: 208px;
+    background-color: #ffbb00;
+  }
+
+  .android-large .a-capoeira-para {
+    position: absolute;
+    width: 257px;
+    top: 601px;
+    left: 55px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  .android-large .text-wrapper-2 {
+    position: absolute;
+    width: 104px;
+    top: 681px;
+    left: 208px;
+    font-family: "Aguafina Script-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffbb00;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+
+  .android-large .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 74px;
+    height: 36px;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 500px;
+    left: 73px;
+    background-color: #ff0000;
+  }
+
+  .android-large .btn-master-normal {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0px 15.4px;
+    position: relative;
+    margin-left: -0.9px;
+    margin-right: -0.9px;
+    background-color: #ffbb00;
+    border-radius: 4px;
+  }
+
+  .android-large .label-2 {
+    font-family: var(--button-roboto-medium-font-family);
+    font-weight: var(--button-roboto-medium-font-weight);
+    color: #040404;
+    font-size: var(--button-roboto-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--button-roboto-medium-letter-spacing);
+    line-height: var(--button-roboto-medium-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    white-space: nowrap;
+    font-style: var(--button-roboto-medium-font-style);
+  }
+
+  .android-large .btn-master-normal-2 {
+    display: flex;
+    width: 97px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0px 15.4px;
+    position: absolute;
+    top: 500px;
+    left: 182px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+
+  .android-large .label-3 {
+    margin-left: -5.4px;
+    margin-right: -5.4px;
+    font-family: var(--button-roboto-medium-font-family);
+    font-weight: var(--button-roboto-medium-font-weight);
+    color: #ffffff;
+    font-size: var(--button-roboto-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--button-roboto-medium-letter-spacing);
+    line-height: var(--button-roboto-medium-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    white-space: nowrap;
+    font-style: var(--button-roboto-medium-font-style);
+  }

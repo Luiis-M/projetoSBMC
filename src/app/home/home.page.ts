@@ -10,9 +10,9 @@ export class HomePage {
 
   constructor(private router:Router) {}
 
-  onChange(){
+  login(){
 
-    this.router.navigate(["/login"])
+    this.router.navigate(["login"])
 
   }
 
