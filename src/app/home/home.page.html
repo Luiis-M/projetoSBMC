@@ -1,3 +1,4 @@
+
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
@@ -5,18 +6,20 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
 
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer"
-        href="https://ionicframework.com/docs/components">UI Components</a></p>
-    <ion-button>Default</ion-button>
-    <ion-button fill="clear" color="secondary">Clear</ion-button>
-    <ion-button fill="outline">Outline</ion-button>
-    <ion-button fill="solid" color="secondary">Solid</ion-button>
+    <ion-img src="/sbmc/src/assets/imagens/logo-inteiro-sbmc.png">
+    </ion-img>
+
+    <div id="login-senha-container">
+      <ion-input label="Usuário" label-placement="floating" fill="solid" placeholder="Enter text" id="login-senha" ></ion-input>
+      <ion-input label="senha" type="senha" label-placement="floating" fill="solid" placeholder="Enter text" id="login-senha"></ion-input>
+    </div>
+    <ion-button id="button-login">Login</ion-button>
+    <ion-button id="button-visitante">visitante</ion-button>
+    
 
   </div>
 
