@@ -23,5 +23,6 @@
     "**/.idea": true,
     "**/.metadata": true,
     ".mule": true
-  }
+  },
+  "angular.enable-strict-mode-prompt": false
 }
