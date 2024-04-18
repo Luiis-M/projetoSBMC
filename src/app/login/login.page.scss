@@ -26,11 +26,10 @@
     flex-direction: column;
     width: 264px;
     height: 55px;
-    align-items: flex-start;
-    position: absolute;
+    align-items: center;
+    position: relative;
     top: 337px;
     left: 48px;
-    background-color: #ffffff;
     border-radius: 4px;
   }
 
@@ -190,4 +189,48 @@
     margin-top: -1px;
     white-space: nowrap;
     font-style: var(--button-roboto-medium-font-style);
+    }
+
+
+ion-list {
+    background-color: #00000000;
+    width: 100%;
+    }
+
+ion-input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #040303;
+    width: 100%;
+    padding-left: 8px !important;
+    border-style: none;
+}
+
+ion-item {
+    background-color: #ffffff;
+    border-style: none ;
+    --background: black !important; /* Isso remove o fundo cinza */
+}
+
+
+.item-login {
+    margin-bottom: 14px;
+    padding: 14px;
+    border-style: none;
+
+}
+
+
+ion-input {
+    --border-color: transparent !important; /* Isso remove a borda */
+
+  }
+
+  .a-capoeira-para p {
+    margin-bottom:12px !important;
+  }
+
+
+  .text-wrapper-2 {
+    font-family: 'AguafinaScript' !important;
   }
