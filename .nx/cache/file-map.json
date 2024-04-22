@@ -157,7 +157,7 @@
       },
       {
         "file": "src/app/home/home.page.scss",
-        "hash": "4696849697403851824"
+        "hash": "9644729654958004288"
       },
       {
         "file": "src/app/home/home.page.spec.ts",
@@ -177,11 +177,11 @@
       },
       {
         "file": "src/app/login/login.page.html",
-        "hash": "9986485284851464763"
+        "hash": "7988915010365025681"
       },
       {
         "file": "src/app/login/login.page.scss",
-        "hash": "14898092568242106029"
+        "hash": "10224007326389162350"
       },
       {
         "file": "src/app/login/login.page.spec.ts",
@@ -190,6 +190,14 @@
       {
         "file": "src/app/login/login.page.ts",
         "hash": "2269959144122328241"
+      },
+      {
+        "file": "src/assets/fonts/AguafinaScript-Regular.ttf",
+        "hash": "12119296294055829055"
+      },
+      {
+        "file": "src/assets/fonts/OFL.txt",
+        "hash": "11717661718986593827"
       },
       {
         "file": "src/assets/icon/favicon.png",
@@ -213,7 +221,7 @@
       },
       {
         "file": "src/global.scss",
-        "hash": "1918626602965251672"
+        "hash": "15637270239438922731"
       },
       {
         "file": "src/index.html",
@@ -233,7 +241,7 @@
       },
       {
         "file": "src/theme/variables.scss",
-        "hash": "1335899078150680067"
+        "hash": "11321444201840472993"
       },
       {
         "file": "src/zone-flags.ts",
