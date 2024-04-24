@@ -122,6 +122,17 @@ ion-button {
     border-color: #ffffff;
   }
 
+  .android-large .btn-master-normal:hover {
+    cursor: pointer;
+    background-color: #868686;
+  } 
+
+  .android-large .btn-master-normal-2:hover {
+    background-color: #F7EC01;
+    cursor: pointer;
+  } 
+
+
   .android-large .label {
     position: relative;
     width: fit-content;
