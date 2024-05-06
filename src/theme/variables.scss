@@ -76,7 +76,7 @@
   --ion-color-light-tint: #f5f6f9;
   --padding-start: 20px;
   --inner-padding-end: 20px;
-  --inner-border-width: 0px 0px 20px 0px;
+  --inner-border-width: 20px 0px 20px 0px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -148,9 +148,7 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
-    --padding-start: 0px;
-    --inner-padding-end: 0px;
-    --inner-border-width: 0px 0px 0px 0px;
+
   }
 
   /*

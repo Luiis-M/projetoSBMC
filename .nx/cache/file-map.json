@@ -177,11 +177,11 @@
       },
       {
         "file": "src/app/login/login.page.html",
-        "hash": "7988915010365025681"
+        "hash": "10465225655699684889"
       },
       {
         "file": "src/app/login/login.page.scss",
-        "hash": "10224007326389162350"
+        "hash": "4402589535662002928"
       },
       {
         "file": "src/app/login/login.page.spec.ts",
@@ -189,7 +189,7 @@
       },
       {
         "file": "src/app/login/login.page.ts",
-        "hash": "2269959144122328241"
+        "hash": "346094111712858104"
       },
       {
         "file": "src/assets/fonts/AguafinaScript-Regular.ttf",
@@ -241,7 +241,7 @@
       },
       {
         "file": "src/theme/variables.scss",
-        "hash": "11321444201840472993"
+        "hash": "6454927186194377665"
       },
       {
         "file": "src/zone-flags.ts",
