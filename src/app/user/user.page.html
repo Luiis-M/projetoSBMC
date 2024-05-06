@@ -1,0 +1,92 @@
+<ion-menu side="end" contentId="main-content">
+  <ion-header>
+    <ion-toolbar class="menu-tittle">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-label>Perfil</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Academias</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Rodas e Eventos</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mensalidade</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Fechar Menu</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Desconectar</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header >
+    <ion-toolbar class="header">
+        <ion-title ><span class="logo-tipo">SBMC</span></ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button class="menu-hamburguer"></ion-menu-button>
+        </ion-buttons>
+        <ion-avatar aria-hidden="true" slot="start" class="avatar">
+          <img alt="sua foto" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+
+    <ion-card class="custom-card">
+      <div class="card-header">
+        <ion-avatar aria-hidden="true" slot="start" class="avatar-user"> 
+          <img alt="sua foto" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /> 
+      </div>
+
+      <div class="user-info">
+        <div>
+          <label for="name">Nome</label>
+          <div id="name" class="info">[Usuário]</div>
+        </div>
+        <div>
+          <label for="graduation">Graduação</label>
+          <div id="graduation" class="info">[Graduação]</div>
+        </div>
+        <div>
+          <label for="responsible">Responsável</label>
+          <div id="responsible" class="info">[Responsável]</div>
+        </div>
+        <button class="edit-btn">EDITAR</button>
+      </div>
+    </ion-card>
+
+    
+      <ion-card class="container-card-mensalidade">
+        <ion-card-header>
+          <ion-card-title class="titulo-mensalidade">MENSALIDADE</ion-card-title>
+        </ion-card-header>
+        <div class="card-carteira">
+          <div class="card-header-carteira">
+            <img src="../../assets/images/shapes.svg" alt="Card Icon">
+            <span>VALOR</span>
+          </div>
+          <div class="card-content-carteira">
+            R$20,00
+          </div>
+        </div>
+          <div class="buttons">
+            <button expand="block" class="alterar-button-cartao">ALTERAR CARTÃO</button>
+            <button expand="block" class="pagar-button">PAGAR</button>
+          </div>
+      </ion-card>
+    
+  </ion-content>
+</div>

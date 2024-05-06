@@ -78,7 +78,6 @@
     position: absolute;
     top: 414px;
     left: 48px;
-    background-color: #ffffff;
     border-radius: 4px;
   }
 
@@ -149,6 +148,11 @@
     border-radius: 4px;
   }
 
+  .android-large .btn-master-normal:hover {
+    background-color: #F7EC01;
+    cursor: pointer;
+  } 
+
   .android-large .label-2 {
     font-family: var(--button-roboto-medium-font-family);
     font-weight: var(--button-roboto-medium-font-weight);
@@ -179,6 +183,11 @@
     border: 1px solid;
     border-color: #ffffff;
   }
+
+  .android-large .btn-master-normal-2:hover {
+    cursor: pointer;
+    background-color: #868686;
+  } 
 
   .android-large .label-3 {
     margin-left: -5.4px;
@@ -215,10 +224,15 @@ ion-input {
 }
 
 ion-item {
-    background-color: #ffffff;
     border-style: none ;
+<<<<<<< HEAD
 
 
+=======
+    padding-left: var(--padding-start);
+    padding-right: var(--inner-padding-end);
+    border-width: var(--inner-border-width);
+>>>>>>> bf049b84f0c60f04f8001ca71a878d6e411ead0b
     --background: black !important; /* Isso remove o fundo cinza */
 }
 
@@ -235,6 +249,10 @@ ion-input {
     --border-color: transparent !important; /* Isso remove a borda */
 
   }
+
+button:hover {
+  background-color: #ff0000;
+}
 
   .a-capoeira-para p {
     margin-bottom:12px !important;
